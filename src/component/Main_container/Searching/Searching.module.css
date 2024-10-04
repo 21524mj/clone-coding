@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty_box {
+  width: auto;
+  height: 30px;
+}
+
+.search_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.2rem solid rgb(193, 15, 209);
+  width: 30rem;
+  height: 1rem;
+  gap: 1.5rem;
+  border-radius: 20px;
+  padding: 1.7rem 3rem 1.7rem 2rem;
+}
+
+.question {
+  font-weight: 700;
+  font-size: 4.2rem;
+  margin-bottom: 32;
+}
